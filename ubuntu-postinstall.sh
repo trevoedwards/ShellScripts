@@ -6,7 +6,7 @@
 # Trevor Edwards
 #
 # Description:
-# Simple post-installation script for Ubuntu
+# Simple post-installation script for Ubuntu (designed to be run as root).
 #
 # Based on David Brien's[0] <mr.brien@gmail.com> script, which in turn was based on scripts by the following:
 # snwh[1] , ravishi[2] , and rougeth[3] scripts.
