@@ -34,8 +34,8 @@ archive_to_upload="./$current_date-dockerData-bkup.7z"
 cd "$source_folder" || exit
 
 # Create a temporary directory to stage files
-mkdir -p "/random/path/temp"
-temp_dir="/random/path/temp"
+temp_dir="/home/prime/temp"
+mkdir -p "${temp_dir}"
 
 # Copy all files and folders (except the exclusion folder) to temporary directory
 rsync -av --exclude="$exclusion_folder" . "$temp_dir"
